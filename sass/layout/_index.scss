@@ -1,0 +1,104 @@
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagenes/birrapastitos2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: rgb(233, 225, 225);
+}
+
+#sonrisas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#sonrisas .container{
+    padding: 200px 12px;
+
+}
+
+#sonrisas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#sonrisas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#sonrisas .carta:first-child{
+    background-image:url("../imagenes/sirviendobarra.jpg");
+}
+
+#sonrisas .carta:nth-child(2){
+    background-image: url("../imagenes/cervezaamigos.jpg");
+}
+
+#sonrisas .carta:last-child{
+    background-image: url("../imagenes/sonrisabirra.jpg");
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 80vh;
+    margin-bottom: 100px;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #ffffff;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #000000;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #000000;
+}

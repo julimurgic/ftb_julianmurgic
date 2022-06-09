@@ -1,0 +1,24 @@
+/*cervezas start*/
+
+#cervezas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#cervezas .container-cervezas{
+    padding: 200px 12px;
+
+}
+
+#cervezas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#cervezas .container-cervezas{
+    display: flex;
+    flex-direction: column;
+}
+
+/*cervezas end*/

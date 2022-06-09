@@ -1,0 +1,127 @@
+/*---media 850px start---*/
+
+@media (min-width: 850px){
+    
+    /*--index--*/
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #quienes-somos .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #quienes-somos .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #quienes-somos h2{
+        margin-top: 0px;
+    }
+
+    #quienes-somos .img-container{
+        background-image: url("../imagenes/fotobarra.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 600px;
+        width: 500px; 
+    }
+
+    #sonrisas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #sonrisas h2{
+        font-size: 4em;
+    }
+
+    #sonrisas h3{
+        margin-top: 0;
+    }
+
+    #sonrisas .carta{
+        padding: 200px;
+        background-size: 100% 500px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 0.5px 0.5px 2px rgba(0,0,0,0.5);
+    }
+
+    #sonrisas .carta:first-child{
+        background-image:url("../imagenes/sirviendobarra.jpg");
+    }
+    
+    #sonrisas .carta:nth-child(2){
+        background-image: url("../imagenes/cervezaamigos.jpg");
+    }
+    
+    #sonrisas .carta:nth-child(3){
+        background-image:url("../imagenes/sonrisabirra.jpg");
+    }
+
+    /* Style Comidas Start */
+
+    
+    #comidas .comidas-container{
+        justify-content: center;
+        height: 100vh;
+    }
+
+    #comidas h2{
+        margin-top: 0px;
+        display: block;
+        text-decoration: underline;
+    }
+
+    #comidas .comidas-container .hamburguesas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+
+
+    #comidas .comidas-container .hamburguesas .burger .burger-info ul{
+        color: #fff;
+        padding: 0%; 
+        margin: 0px 0px;
+    }
+
+    #comidas h4{
+        margin-top: 0;
+        margin-bottom: 150px;
+    }
+
+
+    #comidas .burger{
+        margin: 0 100px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+        transform: scale(1.2);
+        margin-top: 50%;
+    }
+
+    #comidas .burger:hover{
+        border: 0.5px solid beige;
+    }
+
+    /* Style Commidas End*/
+
+
+}
+
+/*---media 850px start---*/
